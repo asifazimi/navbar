@@ -1,7 +1,11 @@
+import React, { useState, useEffect } from "react";
+// components
+import Navbar from "./Navbar";
+
 function App() {
   return (
     <>
-      <h2>Navbar</h2>
+      <Navbar />
     </>
   );
 }
